@@ -5,7 +5,7 @@ import { AnimatedBorderButton } from '../components/AnimatedBorderButton';
 import GIcon from '../assets/icons/GithubIcon.svg'
 import Linkedin from '../assets/icons/linkedin.svg'
 import Twitter from '../assets/icons/Twitter.svg'
-import PhotoBg from '../assets/img/TurquoiseBg.jpg'
+import PhotoBg from '../assets/img/BackGround.jpg'
 import ProfilePhoto from '../assets/img/MyPhoto.png'
 
 const skills = [
