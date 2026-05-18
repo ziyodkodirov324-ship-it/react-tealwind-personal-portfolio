@@ -1,8 +1,8 @@
 import { Navbar } from './layout/Navbar'
-import { Hero } from './sections/Hero'
+import { Hero } from "./sections/Hero"
 import { About } from './sections/About'
 import { Contact } from './sections/Contact'
-import { Experience } from '@/sections/Experience'
+import { Experience } from "./sections/Experience"
 import { Project } from './sections/Project'
 import { Testimonials } from './sections/Testimonials'
 import { Footer } from './layout/Footer'
