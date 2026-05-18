@@ -3,31 +3,38 @@ import otash from '../assets/img/otash.jpg'
 import behi from '../assets/img/Behi.jpg'
 import said from '../assets/img/Said.jpg'
 import teo from '../assets/img/TiaDor.jpg'
+import teacher from '../assets/img/Teacher.jpg'
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 
 const testimonials = [
     {
-        quote: "Otabek one of the talanted person in my school. He know a lot of things about computers. He is frandly person and he can find new friends easier. His hobby is play video games.",
+        quote: "Xoji one of the talanted person in my school. He always ready to help everyone. I'm interested his works, becouse design interesting things, while I'm a Game Designer, I sometimes watching his works!",
         author: "Sobirov Otabek",
         role: "Game Design.",
         avatar: otash,
     },
     {
-        quote: "Behruz one of the my best friend. He is my classmate and Nowadays he learning English language. Besides that he also playing football game very well!",
+        quote: "Xoji one of the my best friend. Honestly, I'm not interested To IT routes but he shows some of his work and add me to his works. When I saw them I tell him they are amazing. I know they will show simple thing but for me they are good! ",
         author: "O'tkirov Behruz",
         role: "Create some design and describe it",
         avatar: behi,
     },
     {
-        quote: "He is also my friend. His hobby is play football. Nowadays he plays in the Bunyotkor team and in the future he will play in main team.",
+        quote: "Xoji was one of the first people I met at school. I know him from the first classes. He is a good person, his knowledge, his etiquette and other things. He isn't interested in studies but working on a computer know him life dep!",
         author: "Siadnabiyev Saida'lo",
         role: "Also best friend",
         avatar: said,
     },
     {
+        quote: "His is a talanted person. I taught him Frontend direction more 9 month. He learned nor bad, yes he had a lot of mistakes like he didn't many homework, he can't finished his subject and others. Yet, he finished this course very well. His group tald him a capitan in their group. HIs teamates also learn very well, in his group had there were better ones but everyone would be heard him!",
+        author: "Otabek Fozilov",
+        role: "My Teacher from Frontend course",
+        avatar: teacher,
+    },
+    {
         quote: "This hero is one of the popular hero in the movie. He has a good charactor and others, with him you will not be bored.",
         author: "Tiador ( Teo )",
-        role: "Hero",
+        role: "Hero, that added for interest",
         avatar: teo,
     },
 ];
@@ -115,8 +122,8 @@ export const Testimonials = () => {
                                         key={idx}
                                         onClick={() => setCurrent(idx)}
                                         className={`h-2 rounded-full transition-all duration-300 ${idx === current
-                                                ? "w-8 bg-primary"
-                                                : "w-2 bg-muted-foreground/30"
+                                            ? "w-8 bg-primary"
+                                            : "w-2 bg-muted-foreground/30"
                                             }`}
                                     />
                                 ))}

@@ -1,35 +1,32 @@
 import { ArrowUpRight } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
-// ✅ IMG IMPORTS
-import ProjectOne from "../assets/img/ProjectOne.jpg";
-import ProjectTwo from "../assets/img/ProjectTwo.jpg";
-import ProjectThree from "../assets/img/ProjectThree.png";
-import ProjectFour from "../assets/img/ProjectFour.jpg";
+import ProjectOne from "../assets/img/work1.jpg";
+import ProjectTwo from "../assets/img/work2.jpg";
+import ProjectThree from "../assets/img/garage.png";
+import ProjectFour from "../assets/img/project.png";
 
 const projects = [
     {
-        title: "Fintech Dashboard",
-        description:
-            "A comprehensive financial analytics platform with real-time data visualization and advanced reporting features.",
+        title: "Stroy Wholesale Auction",
+        description: "It's my first work that I work with a group. These projact gave us from the our training center and if we did it they will give us our diploma.So they gave us the tasks, everyone had their work. My tasks were make a Registor, Making an order, Authorizations and Privacy Policy pages...",
         image: ProjectOne,
-        tags: ["React", "TypeScript", "NodeJS"],
+        tags: ["React", "TypeScript", "Figma"],
         link: "#",
         github: "#",
     },
     {
-        title: "E-Commerce Platform",
-        description:
-            "A modern e-commerce application with seamless checkout, product management, and payment integration.",
+        title: "Alowishus Delicious Coffee",
+        description: "This work I did in my first days in my work. This projact give my mentor at work. I finished it around 2-3 weeks. I know it's very late but for my mistakes I did it very late. Many things had come to mind because I had not been involved in this business for a long time, fro these reason I can't did it very fast.",
         image: ProjectTwo,
-        tags: ["React", "TypeScript", "NodeJS"],
+        tags: ["React", "TypeScript", "Figma"],
         link: "#",
         github: "#",
     },
     {
         title: "Social Media App",
         description:
-            "A full-featured social platform with real-time chat, posts, likes, and user interactions.",
+            "It's my first of projact that I did in my frist time in Frontent Course. This project my favourite projact, I know it;s very simple and easy project but for me this project better that others that I did!.",
         image: ProjectThree,
         tags: ["React", "TypeScript", "NodeJS"],
         link: "#",
@@ -38,7 +35,7 @@ const projects = [
     {
         title: "Portfolio Website",
         description:
-            "A sleek and responsive personal portfolio to showcase projects and skills.",
+            "This project, Now I doing, If you look it, this projact finished.",
         image: ProjectFour,
         tags: ["React", "TypeScript", "NodeJS"],
         link: "#",

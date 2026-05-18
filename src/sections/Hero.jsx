@@ -3,9 +3,9 @@ import { ArrowRight, ChevronDown, Download, } from 'lucide-react';
 import PhotoBg from '../assets/img//TurquoiseBg.jpg'
 import { Button } from "@/components/Button";
 import { AnimatedBorderButton } from '../components/AnimatedBorderButton';
-import GIcon from '../assets/icon/GithubIcon.png'
-import Linkedin from '../assets/icon/Linkedin.png'
-import Twitter from '../assets/icon/Twitter.png'
+import GIcon from '../assets/icons/GithubIcon.svg'
+import Linkedin from '../assets/icons/Linkedin.svg'
+import Twitter from '../assets/icons/Twitter.svg'
 import ProfilePhoto from '../assets/img/MyPhoto.png'
 
 const skills = [
@@ -13,17 +13,7 @@ const skills = [
     "Next.js",
     "TypeScript",
     "Node.js",
-    "GraphQL",
-    "PostgreSQL",
-    "MongoDB",
-    "Redis",
-    "Docker",
-    "AWS",
-    "Vercel",
     "Tailwind CSS",
-    "Prisma",
-    "Jest",
-    "Cypress",
     "Figma",
     "Git",
     "GitHub Actions",
@@ -68,7 +58,7 @@ export const Hero = () => {
                         <div className="animate-fade-in">
                             <span className='inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary'>
                                 <span className='w-2 h-2 bg-primary rounded-full animate-pulse' />
-                                Softwere Engineer • React Specialist
+                                Frontend Engineer • React Developer
                             </span>
                         </div>
 
@@ -147,7 +137,7 @@ export const Hero = () => {
                                 </div>
                                 {/* Stats Badge */}
                                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animation-float animation-delay-500">
-                                    <div className="text-2xl font-bold text-primary">5+ </div>
+                                    <div className="text-2xl font-bold text-primary">1+ </div>
                                     <div className="text-xs text-muted-foreground ">Years Exp.</div>
                                 </div>
 

@@ -1,38 +1,34 @@
 const experiences = [
     {
-        period: "2022 – Present",
-        role: "Senior Frontend Engineer",
-        company: "Tech Innovators Inc.",
-        description:
-            "Leading frontend architecture for a suite of fintech products. Implemented scalable UI systems, improved performance by optimizing rendering, and collaborated closely with backend and design teams to deliver high-quality user experiences.",
-        technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+        period: "2020 – 2021/22",
+        role: "Backend Developer",
+        company: "Robotics Lab.",
+        description: "According to my career, I went to the Beckand course such 4-5 years ago. I was 14-15 years old when I wasn't mistaken. I studied in this course for 1-2 years. I also got the Nootbook that I use now. The time I took 70% off this course has always been taken but my studies have also dropped out as the lessons get harder. I don't remember anything at the moment, but I can learn a lot for a short time.",
+        technologies: ["C++", "HTML", "Drogon", "Boost.Beast"],
         current: true,
     },
     {
-        period: "2020 – 2022",
-        role: "Frontend Engineer",
-        company: "Digital Solutions Co.",
-        description:
-            "Built and maintained multiple React applications for enterprise clients. Focused on writing clean, testable code, improving application performance, and ensuring responsive, accessible UI across devices.",
-        technologies: ["React", "Redux", "Jest", "Cypress"],
+        period: "2022 – 2023",
+        role: "A Man Interested In Design",
+        company: "In Training Centers.",
+        description: "After this study, I have no difficulty in this persuasion of the ability to remain umurbod. After this course I went to different dog routes but I couldn't be interested in any.",
+        technologies: ["3D Modeler", "Blender", "3D Animator", "Motion Designer"],
         current: false,
     },
     {
-        period: "2019 – 2020",
+        period: "2025 – 2026",
         role: "Junior Developer",
-        company: "StartUp Labs",
-        description:
-            "Contributed to the development of a SaaS platform from MVP to production. Assisted in building core features, fixing bugs, and integrating APIs while gaining hands-on experience with modern web technologies.",
-        technologies: ["React", "Node.js", "MongoDB", "AWS"],
+        company: "Fintech Hub",
+        description: "But since February 2025, the frontend direction began to go, and I learned it quite onson due to my persuasion ability. I completed this course in more than 8 months. After this course, I received a diploma, surrounded many friends and acquaintances. I want to strengthen my abilities in this direction right now and build a good life in the future behind this direction",
+        technologies: ["React", "Node.js", "Figma", "CSS"],
         current: false,
     },
     {
-        period: "2019 – 2020",
+        period: "2026 – 20**",
         role: "Junior Developer",
-        company: "StartUp Labs",
-        description:
-            "Contributed to the development of a SaaS platform from MVP to production. Assisted in building core features, fixing bugs, and integrating APIs while gaining hands-on experience with modern web technologies.",
-        technologies: ["React", "Node.js", "MongoDB", "AWS"],
+        company: "",
+        description: "At the moment, I do not go to any courses, but I am improving my qualifications. Taking a break from short studies, I became an intern and went to work in the direction of the Frontend. Here I am now increasing my knowledge.",
+        technologies: ["GitHub", "LinkedIN", "Telegram", "Instagramm"],
         current: false,
     },
 ];

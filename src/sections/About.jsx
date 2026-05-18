@@ -50,26 +50,21 @@ export const About = () => {
 
                         <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
                             <p>
-                                I'm a passionate software engineer with over 5 years of experience crafting digital products that make a difference.
-                                My journey started with a curiosity for how things work on the web, and it has evolved into a deep expertise in modern frontend technologies.
+                                My first plan for the future is to find a normal job for my future life. In the first place, this job was about Frontend. This job gives me a lot of opportunities.
                             </p>
 
                             <p>
-                                I specialize in React, Next.js, and TypeScript, building everything from sleek landing pages to complex enterprise applications.
-                                My approach combines technical excellence with a keen eye for design and user experience.
+                                Secondly, after finding a job, I want to improve my knowledge. This is also a great lesson for my career. After that, I want to open my own business with the money I've saved, such as renting an apartment or opening a car wash.
                             </p>
 
                             <p>
-                                When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects,
-                                or sharing knowledge with the developer community.
+                                Last, is to buy two Umrah safari tickets for my parent. This is the main goal in my life.
                             </p>
                         </div>
 
                         <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
                             <p className="text-lg font-medium italic text-foreground">
-                                "My mission is to create digital experiences that are not just
-                                functional, but truly delightful — products that users love to
-                                use and developers love to maintain."                            </p>
+                                "My mission is to create digital experiences that are not just functional, but truly delightful — products that users love to use and developers love to maintain."                            </p>
                         </div>
                     </div>
 
@@ -82,7 +77,7 @@ export const About = () => {
                                 className="cursor-pointer glass p-6 rounded-2xl animate-fade-in hover:scale-105 transition"
                             >
                                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4 hover: bg-primary/20">
-                                    <item.icon className="w-6 h-6 text-primary"/>
+                                    <item.icon className="w-6 h-6 text-primary" />
                                 </div>
 
                                 <h3 className="text-lg font-semibold mb-2">

@@ -1,7 +1,7 @@
 // import { Linkedin, Twitter, Heart } from "lucide-react";
-import Gitcon from '../assets/icon/GithubIcon.png'
-import Linkedin from '../assets/icon/Linkedin.png'
-import Twitter from '../assets/icon/Twitter.png'
+import Gitcon from '../assets/icons/GithubIcon.svg'
+import Linkedin from '../assets/icons/Linkedin.svg'
+import Twitter from '../assets/icons/Twitter.svg'
 import { Heart } from "lucide-react";
 
 const socialLinks = [
@@ -79,7 +79,7 @@ export const Footer = () => {
                                     rel="noopener noreferrer"
                                     className=" p-3 rounded-full border border-white/10 bg-white/5 text-gray-300 hover:text-white hover:bg-white/10 transition-all duration-300"
                                 >
-                                    <icon size={20} />
+                                    <img src={social.icon} alt="social icon" className="w-5 h-5" />
                                 </a>
                             );
                         })}
