@@ -3,7 +3,7 @@ import { ArrowRight, ChevronDown, Download, } from 'lucide-react';
 import { Button } from "../components/Button";
 import { AnimatedBorderButton } from '../components/AnimatedBorderButton';
 import GIcon from '../assets/icons/GithubIcon.svg'
-import Linkedin from '../assets/icons/linkedin.svg'
+import Linkedin from '../assets/icons/Linkedin.svg'
 import Twitter from '../assets/icons/Twitter.svg'
 import PhotoBg from '../assets/img/BackGround.jpg'
 import ProfilePhoto from '../assets/img/MyPhoto.png'
